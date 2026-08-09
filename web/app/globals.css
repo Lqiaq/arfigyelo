@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Design tokenek
+
+   Két réteg: nyers színek + szemantikus nevek. A komponensek csak a
+   szemantikus neveket használják, így a téma egy helyen állítható.
+   --------------------------------------------------------------------------- */
+:root {
+  --bg: #fbfaf8;
+  --surface: #ffffff;
+  --surface-muted: #f4f2ee;
+  --border: #e5e1d9;
+  --border-strong: #d4cfc4;
+
+  --text: #1b1a17;
+  --text-muted: #6b6760;
+  --text-faint: #97918a;
+
+  --accent: #1f5f4f;
+  --accent-soft: #e3efe9;
+
+  /* Trend-színek. "Csökkenő" a vevőnek jó hír, ezért zöld. */
+  --down: #1f7a52;
+  --down-soft: #e2f2e9;
+  --up: #a8442a;
+  --up-soft: #f8e8e2;
+  --flat: #6b6760;
+  --flat-soft: #eeece7;
+
+  --grid: #e8e4dc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12120f;
+    --surface: #1a1a16;
+    --surface-muted: #22221d;
+    --border: #2e2e28;
+    --border-strong: #3d3d35;
+
+    --text: #ecebe6;
+    --text-muted: #a3a099;
+    --text-faint: #75726c;
+
+    --accent: #6dc9a8;
+    --accent-soft: #17302a;
+
+    --down: #52c48d;
+    --down-soft: #14301f;
+    --up: #e08a6a;
+    --up-soft: #331d16;
+    --flat: #a3a099;
+    --flat-soft: #26261f;
+
+    --grid: #2a2a24;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-border-base: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-text-faint: var(--text-faint);
+
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+
+  --color-down: var(--down);
+  --color-down-soft: var(--down-soft);
+  --color-up: var(--up);
+  --color-up-soft: var(--up-soft);
+  --color-flat: var(--flat);
+  --color-flat-soft: var(--flat-soft);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Számoszlopok: azonos szélességű számjegyek, hogy ne ugráljanak. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

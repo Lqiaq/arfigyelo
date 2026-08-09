@@ -1,0 +1,90 @@
+name: Napi árfigyelés
+
+on:
+  schedule:
+    # 06:12 UTC – nyáron 08:12, télen 07:12 budapesti idő szerint.
+    # Nem kerek órára időzítve: akkor fut a legtöbb cron a GitHubon, és a
+    # futások percekkel-tízpercekkel csúszhatnak.
+    - cron: "12 6 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Csak az első N terméket nézd meg (üres = mind)"
+        required: false
+        type: string
+
+permissions:
+  contents: write # a lokális JSON fallback commit-backhez kell
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Függőségek
+        run: pip install -r scraper/requirements.txt
+
+      # A Playwright böngésző ~180 MB, verziónként cache-eljük.
+      - name: Playwright verzió kiolvasása
+        id: pw
+        run: echo "version=$(pip show playwright | awk '/^Version:/{print $2}')" >> "$GITHUB_OUTPUT"
+
+      - name: Böngésző cache
+        id: browser-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.pw.outputs.version }}
+
+      - name: Chromium telepítése
+        run: |
+          if [ "${{ steps.browser-cache.outputs.cache-hit }}" = "true" ]; then
+            python -m playwright install-deps chromium
+          else
+            python -m playwright install --with-deps chromium
+          fi
+
+      - name: Scraper futtatása
+        working-directory: scraper
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python scrape.py ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+
+      # Ha nincs Supabase secret, a store lokális JSON-be írt – azt visszatoljuk
+      # a repóba, így a Vercel deploy is friss adatot lát. Supabase módban ez a
+      # lépés no-op, mert a fájl nem változik.
+      - name: Adat visszacommitolása (lokális mód)
+        run: |
+          if git diff --quiet -- web/public/data/db.json; then
+            echo "Nincs változás a lokális DB-ben – nincs mit commitolni."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/db.json
+          git commit -m "chore(data): napi árpillanatkép $(date -u +%Y-%m-%d)"
+          git push
+
+      # Ha elhasal a scraper (pl. változott az oldal szerkezete), a futás
+      # nyoma megmarad – ez a legolcsóbb monitorozás egy hobbiprojekthez.
+      - name: Hibalog feltöltése
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-log
+          path: scraper/*.log
+          if-no-files-found: ignore

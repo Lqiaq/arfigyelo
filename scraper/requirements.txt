@@ -1,0 +1,4 @@
+playwright==1.49.1
+# Csak akkor kell, ha Supabase-be írsz. Lokális JSON fallbackhez nem szükséges,
+# a store.py lustán importálja.
+supabase==2.11.0

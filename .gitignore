@@ -1,0 +1,39 @@
+# Egyetlen .gitignore az egész repóra (scraper + web).
+
+# --- Python / scraper ---
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# --- Node / Next.js ---
+node_modules/
+.pnp
+.pnp.*
+.next/
+out/
+build/
+coverage/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# --- Környezeti változók ---
+# A .env.example szándékosan verziókövetett – csak a valódi értékek nem.
+.env
+.env.local
+.env*.local
+*.pem
+
+# --- Editor / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Vercel ---
+.vercel
+
+# MEGJEGYZÉS: a web/public/data/*.json SZÁNDÉKOSAN verziókövetett.
+# Lokális módban ez az adatbázis, és ide commitol vissza a GitHub Actions.

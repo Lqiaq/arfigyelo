@@ -1,0 +1,5604 @@
+{
+ "_warning": "SZINTETIKUS DEMÓ-ADAT, nem valós mérés. Lásd scraper/seed_demo.py",
+ "is_demo": true,
+ "generated_at": "2026-08-09T22:21:57.729703+00:00",
+ "products": [
+  {
+   "id": "60456f96-231b-5195-bfde-04d994e91701",
+   "slug": "sony-wh-1000xm6-fekete",
+   "name": "Sony WH-1000XM6 Noise Cancelling, fekete",
+   "url": "https://www.alza.hu/sony-wh-1000xm6-noise-cancelling-fekete-d12883227.htm",
+   "brand": "Sony",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "slug": "sony-wh-ch720n-fekete",
+   "name": "Sony WH-CH720N Noise Cancelling, fekete",
+   "url": "https://www.alza.hu/sony-noise-cancelling-wh-ch720n-fekete-d7655174.htm",
+   "brand": "Sony",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "slug": "sony-wf-1000xm6-ezust",
+   "name": "Sony WF-1000XM6 Noise Cancelling, ezüst",
+   "url": "https://www.alza.hu/sony-noise-cancelling-wf-1000xm6-ezust-d13211359.htm",
+   "brand": "Sony",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "slug": "apple-airpods-4",
+   "name": "Apple AirPods 4",
+   "url": "https://www.alza.hu/apple-airpods-4-d12541396.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "slug": "apple-airpods-4-anc",
+   "name": "Apple AirPods 4 (aktív zajkioltással)",
+   "url": "https://www.alza.hu/apple-airpods-4-aktiv-zajkioltassal-d12541397.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "slug": "apple-airpods-pro-3",
+   "name": "Apple AirPods Pro 3",
+   "url": "https://www.alza.hu/apple-airpods-pro-3-d13078759.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "slug": "apple-airpods-max-2-ejfekete",
+   "name": "Apple AirPods Max 2, éjfekete",
+   "url": "https://www.alza.hu/apple-airpods-max-2-ejfekete-d13289721.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "slug": "samsung-galaxy-buds3-ezust",
+   "name": "Samsung Galaxy Buds3, ezüst",
+   "url": "https://www.alza.hu/samsung-galaxy-buds3-ezust-d13193245.htm",
+   "brand": "Samsung",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "slug": "nothing-ear-a-black",
+   "name": "Nothing Ear (a), fekete",
+   "url": "https://www.alza.hu/nothing-eara-black-d12302495.htm",
+   "brand": "Nothing",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "slug": "jbl-tune-530bt-black",
+   "name": "JBL Tune 530BT, fekete",
+   "url": "https://www.alza.hu/jbl-tune-530bt-black-d13177314.htm",
+   "brand": "JBL",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "slug": "jbl-quantum-350-wireless-fekete",
+   "name": "JBL Quantum 350 Wireless, fekete",
+   "url": "https://www.alza.hu/jbl-quantum-350-wireless-fekete-d6837566.htm",
+   "brand": "JBL",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "slug": "jbl-wave-buds-2-fekete",
+   "name": "JBL Wave Buds 2, fekete",
+   "url": "https://www.alza.hu/jbl-wave-buds-2-fekete-d12763431.htm",
+   "brand": "JBL",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "slug": "marshall-major-iv-fekete",
+   "name": "Marshall Major IV Bluetooth, fekete",
+   "url": "https://www.alza.hu/marshall-major-iv-bluetooth-fekete-d6262707.htm",
+   "brand": "Marshall",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "slug": "soundcore-q20i",
+   "name": "Soundcore Q20i",
+   "url": "https://www.alza.hu/soundcore-q20i-d7927588.htm",
+   "brand": "Soundcore",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  },
+  {
+   "id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "slug": "asus-rog-pelta",
+   "name": "ASUS ROG Pelta",
+   "url": "https://www.alza.hu/asus-rog-pelta-d12716972.htm",
+   "brand": "ASUS",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-06-27T06:12:00+00:00"
+  }
+ ],
+ "price_snapshots": [
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 151990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 151990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 151990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 151990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 149990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 149990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 149990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 149990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 149990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 149990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 145990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 145990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 126990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 126990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 126990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 127990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 127990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 127990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 139990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 139990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 139990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 139990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 136990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 136990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 136990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 136990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 135990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 135990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 135990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 135990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 133990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 88990,
+   "list_price": 101990,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 88990,
+   "list_price": 101990,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 88990,
+   "list_price": 101990,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 88990,
+   "list_price": 101990,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 88990,
+   "list_price": 101990,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 89990,
+   "list_price": 102990,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 86990,
+   "list_price": 99990,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 86990,
+   "list_price": 99990,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 86990,
+   "list_price": 99990,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 86990,
+   "list_price": 99990,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 86990,
+   "list_price": 99990,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 86990,
+   "list_price": 99990,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 87990,
+   "list_price": 100990,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 91990,
+   "list_price": 105990,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 91990,
+   "list_price": 105990,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 91990,
+   "list_price": 105990,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 91990,
+   "list_price": 105990,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 95990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 55990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 55990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 55990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 58990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 58990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 51990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 51990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 49990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 49990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 56990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 54990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 67990,
+   "list_price": 77990,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 68990,
+   "list_price": 78990,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 57990,
+   "list_price": 66990,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 57990,
+   "list_price": 66990,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 59990,
+   "list_price": 68990,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 59990,
+   "list_price": 68990,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 59990,
+   "list_price": 68990,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 59990,
+   "list_price": 68990,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 59990,
+   "list_price": 68990,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 59990,
+   "list_price": 68990,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 70990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 73990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 107990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 107990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 107990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 106990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 106990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 106990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 106990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 106990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 105990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 105990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 105990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 105990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 105990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 105990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 100990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 85990,
+   "list_price": 98990,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 85990,
+   "list_price": 98990,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 83990,
+   "list_price": 96990,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 83990,
+   "list_price": 96990,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 83990,
+   "list_price": 96990,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 83990,
+   "list_price": 96990,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 83990,
+   "list_price": 96990,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 82990,
+   "list_price": 94990,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 96990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 96990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 98990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 98990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 98990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 98990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 97990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 97990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 97990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 97990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 97990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 100990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 100990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 100990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 100990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 271990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 271990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 271990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 270990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 270990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 270990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 270990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 258990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 252990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 252990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 252990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 259990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 259990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 258990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 258990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 258990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 258990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 258990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 257990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 256990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 256990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 256990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 256990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 256990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 255990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 255990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 255990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 255990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 255990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 254990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 245990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 245990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 245990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 243990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 239990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 239990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 239990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 30990,
+   "list_price": 35990,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 31990,
+   "list_price": 36990,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 32990,
+   "list_price": 37990,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 34990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 35990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 35990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 36990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 36990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 36990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 36990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 36990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 28990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 24990,
+   "list_price": 28990,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 24990,
+   "list_price": 28990,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 24990,
+   "list_price": 28990,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 25990,
+   "list_price": 29990,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 30990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 14990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 12990,
+   "list_price": 14990,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 12990,
+   "list_price": 14990,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 12990,
+   "list_price": 14990,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 12990,
+   "list_price": 14990,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 12990,
+   "list_price": 14990,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 12990,
+   "list_price": 14990,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 24590,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 21990,
+   "list_price": 24990,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 22990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 22990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 22990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23890,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 26990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 25990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 24990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 15990,
+   "list_price": 17990,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 17990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 17990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 17990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 16990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 17390,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 43990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 43990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 43990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 43990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-06-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 43990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 42990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 41990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-10",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 41990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-11",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 41990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-12",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 41990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-13",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 41990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-14",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-15",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-16",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-17",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-18",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-19",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-20",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 40990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-21",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-22",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-23",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-24",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-25",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-26",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-27",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-28",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-29",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-30",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-07-31",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-01",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-02",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-03",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-04",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-05",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-06",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 39990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-07",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 38990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-08",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 38990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-09",
+   "source": "demo"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 38490,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "demo"
+  }
+ ]
+}

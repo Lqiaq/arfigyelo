@@ -1,0 +1,322 @@
+{
+ "products": [
+  {
+   "id": "60456f96-231b-5195-bfde-04d994e91701",
+   "slug": "sony-wh-1000xm6-fekete",
+   "name": "Sony WH-1000XM6 Noise Cancelling, fekete",
+   "url": "https://www.alza.hu/sony-wh-1000xm6-noise-cancelling-fekete-d12883227.htm",
+   "brand": "Sony",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": "https://image.alza.cz/products/RO972j0e1/RO972j0e1.jpg",
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277018+00:00"
+  },
+  {
+   "id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "slug": "sony-wh-ch720n-fekete",
+   "name": "Sony WH-CH720N Noise Cancelling, fekete",
+   "url": "https://www.alza.hu/sony-noise-cancelling-wh-ch720n-fekete-d7655174.htm",
+   "brand": "Sony",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277170+00:00"
+  },
+  {
+   "id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "slug": "sony-wf-1000xm6-ezust",
+   "name": "Sony WF-1000XM6 Noise Cancelling, ezüst",
+   "url": "https://www.alza.hu/sony-noise-cancelling-wf-1000xm6-ezust-d13211359.htm",
+   "brand": "Sony",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277254+00:00"
+  },
+  {
+   "id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "slug": "apple-airpods-4",
+   "name": "Apple AirPods 4",
+   "url": "https://www.alza.hu/apple-airpods-4-d12541396.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277316+00:00"
+  },
+  {
+   "id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "slug": "apple-airpods-4-anc",
+   "name": "Apple AirPods 4 (aktív zajkioltással)",
+   "url": "https://www.alza.hu/apple-airpods-4-aktiv-zajkioltassal-d12541397.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277374+00:00"
+  },
+  {
+   "id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "slug": "apple-airpods-pro-3",
+   "name": "Apple AirPods Pro 3",
+   "url": "https://www.alza.hu/apple-airpods-pro-3-d13078759.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277439+00:00"
+  },
+  {
+   "id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "slug": "apple-airpods-max-2-ejfekete",
+   "name": "Apple AirPods Max 2, éjfekete",
+   "url": "https://www.alza.hu/apple-airpods-max-2-ejfekete-d13289721.htm",
+   "brand": "Apple",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277488+00:00"
+  },
+  {
+   "id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "slug": "samsung-galaxy-buds3-ezust",
+   "name": "Samsung Galaxy Buds3, ezüst",
+   "url": "https://www.alza.hu/samsung-galaxy-buds3-ezust-d13193245.htm",
+   "brand": "Samsung",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277541+00:00"
+  },
+  {
+   "id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "slug": "nothing-ear-a-black",
+   "name": "Nothing Ear (a), fekete",
+   "url": "https://www.alza.hu/nothing-eara-black-d12302495.htm",
+   "brand": "Nothing",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277586+00:00"
+  },
+  {
+   "id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "slug": "jbl-tune-530bt-black",
+   "name": "JBL Tune 530BT, fekete",
+   "url": "https://www.alza.hu/jbl-tune-530bt-black-d13177314.htm",
+   "brand": "JBL",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277630+00:00"
+  },
+  {
+   "id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "slug": "jbl-quantum-350-wireless-fekete",
+   "name": "JBL Quantum 350 Wireless, fekete",
+   "url": "https://www.alza.hu/jbl-quantum-350-wireless-fekete-d6837566.htm",
+   "brand": "JBL",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277674+00:00"
+  },
+  {
+   "id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "slug": "jbl-wave-buds-2-fekete",
+   "name": "JBL Wave Buds 2, fekete",
+   "url": "https://www.alza.hu/jbl-wave-buds-2-fekete-d12763431.htm",
+   "brand": "JBL",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277723+00:00"
+  },
+  {
+   "id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "slug": "marshall-major-iv-fekete",
+   "name": "Marshall Major IV Bluetooth, fekete",
+   "url": "https://www.alza.hu/marshall-major-iv-bluetooth-fekete-d6262707.htm",
+   "brand": "Marshall",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277767+00:00"
+  },
+  {
+   "id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "slug": "soundcore-q20i",
+   "name": "Soundcore Q20i",
+   "url": "https://www.alza.hu/soundcore-q20i-d7927588.htm",
+   "brand": "Soundcore",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277818+00:00"
+  },
+  {
+   "id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "slug": "asus-rog-pelta",
+   "name": "ASUS ROG Pelta",
+   "url": "https://www.alza.hu/asus-rog-pelta-d12716972.htm",
+   "brand": "ASUS",
+   "category": "fejhallgato",
+   "shop": "alza.hu",
+   "currency": "HUF",
+   "image_url": null,
+   "active": true,
+   "created_at": "2026-08-09T22:20:53.277861+00:00"
+  }
+ ],
+ "price_snapshots": [
+  {
+   "product_id": "2c64f884-eaa0-58dc-aa00-48659e068e78",
+   "price": 36990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "31ed02a3-3f32-5f6f-9822-3478967b88b1",
+   "price": 23890,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "3a202146-875c-5679-bee6-576dd74a790a",
+   "price": 15990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "60456f96-231b-5195-bfde-04d994e91701",
+   "price": 134990,
+   "list_price": 149990,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "7290f9d0-0dc7-56a7-9e34-268decd5496e",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "7efe821c-979b-530c-b8bf-31015d1a24b3",
+   "price": 31990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "85fc126a-0bba-5f9c-a9e0-16af8ffcfc0b",
+   "price": 99990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "9bde04d2-71df-540e-bef1-7142ddd3946a",
+   "price": 52990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "9ca55073-e528-58c4-b18d-924d777e7c37",
+   "price": 29990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "a31f1baf-7e2d-57c3-a88b-49ae62037130",
+   "price": 38490,
+   "list_price": null,
+   "availability": null,
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "a8226f51-40c5-5f19-a18a-d1c00cb3eb26",
+   "price": 74990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "b04b7d00-9275-56c3-8ba2-e63dd5ec7cf0",
+   "price": 239990,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "cca27b01-2839-576c-8062-1b6f1f5b333e",
+   "price": 23990,
+   "list_price": null,
+   "availability": null,
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "d847731f-2d55-5ff8-958f-2bdeb426a03a",
+   "price": 17390,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  },
+  {
+   "product_id": "e0275cfa-b5f6-599d-9e25-fa6800862275",
+   "price": 24590,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-10",
+   "source": "listing"
+  }
+ ],
+ "generated_at": "2026-08-09T22:20:53.278189+00:00"
+}
