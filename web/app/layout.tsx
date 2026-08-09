@@ -6,6 +6,9 @@ import "./globals.css";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin", "latin-ext"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin", "latin-ext"] });
 
+/** Írd ide a repó URL-jét (vagy állítsd be env-ben), és megjelenik a fejlécben. */
+const REPO_URL = process.env.NEXT_PUBLIC_REPO_URL ?? "";
+
 export const metadata: Metadata = {
   title: "Ártrend-figyelő — Steam játékok",
   description:
@@ -29,12 +32,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Steam
               </span>
             </Link>
-            <a
-              href="https://github.com/"
-              className="text-[13px] text-text-muted hover:text-text underline underline-offset-4 decoration-border-strong"
-            >
-              Forráskód
-            </a>
+            {/* TODO: cseréld a saját repó URL-jére, mielőtt kipublikálod.
+                Amíg üres, inkább ne jelenjen meg, mint hogy sehová vigyen. */}
+            {REPO_URL && (
+              <a
+                href={REPO_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[13px] text-text-muted hover:text-text underline underline-offset-4 decoration-border-strong"
+              >
+                Forráskód
+              </a>
+            )}
           </div>
         </header>
 
