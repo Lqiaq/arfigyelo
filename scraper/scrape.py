@@ -172,9 +172,22 @@ def main() -> int:
         help=f"fix szünet másodpercben a lekérések között "
         f"(alap: véletlen {MIN_DELAY_S}–{MAX_DELAY_S} s)",
     )
+    ap.add_argument(
+        "--catalog",
+        default="products.mock.json",
+        help="melyik katalógusfájlt scrape-elje (alap: products.mock.json)",
+    )
     args = ap.parse_args()
 
-    catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+    catalog_path = Path(args.catalog)
+    if not catalog_path.is_absolute():
+        catalog_path = HERE / catalog_path
+    if not catalog_path.exists():
+        print(f"Nincs ilyen katalógus: {catalog_path}")
+        print("Mock shop esetén futtasd előbb: python ../mock-shop/generate.py")
+        return 2
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
     products = catalog["products"][: args.limit] if args.limit else catalog["products"]
     captured_on = today_budapest()
 

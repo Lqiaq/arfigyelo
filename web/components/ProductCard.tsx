@@ -21,6 +21,7 @@ async function CardVerdict({ product }: { product: ProductWithHistory }) {
 export function ProductCard({ product }: { product: ProductWithHistory }) {
   const stats = analyze(product.history);
   const change = stats.changeSinceLastPct;
+  const price = (minor: number | null) => formatPrice(minor, product.currency);
 
   return (
     <article className="flex flex-col rounded-xl border border-border-base bg-surface p-4 transition-colors hover:border-border-strong">
@@ -46,12 +47,12 @@ export function ProductCard({ product }: { product: ProductWithHistory }) {
       <div className="mt-3 flex items-end justify-between gap-3">
         <div>
           <div className="tabular text-[22px] font-semibold tracking-tight leading-none">
-            {formatPrice(stats.current)}
+            {price(stats.current)}
           </div>
           <div className="mt-1.5 flex items-center gap-2 text-[12px]">
             {stats.onSale && (
               <span className="tabular text-text-faint line-through">
-                {formatPrice(product.history.at(-1)?.list_price ?? null)}
+                {price(product.history.at(-1)?.list_price ?? null)}
               </span>
             )}
             {change != null && Math.abs(change) >= 0.05 ? (
@@ -72,22 +73,28 @@ export function ProductCard({ product }: { product: ProductWithHistory }) {
         <dl className="mt-4 grid grid-cols-3 gap-2 border-t border-border-base pt-3 text-[11px]">
           <div>
             <dt className="text-text-faint">30n min</dt>
-            <dd className="tabular text-text-muted">{formatPrice(stats.min30)}</dd>
+            <dd className="tabular text-text-muted">{price(stats.min30)}</dd>
           </div>
           <div>
             <dt className="text-text-faint">30n átlag</dt>
-            <dd className="tabular text-text-muted">{formatPrice(stats.avg30)}</dd>
+            <dd className="tabular text-text-muted">{price(stats.avg30)}</dd>
           </div>
           <div>
             <dt className="text-text-faint">
-              {stats.isAllTimeLow ? "rekord" : "ilyen olcsón"}
+              {stats.isFlat30
+                ? "30n mozgás"
+                : stats.isAllTimeLow || stats.isAtMonthLow
+                  ? "állapot"
+                  : "ilyen olcsón"}
             </dt>
             <dd className="text-text-muted">
-              {stats.isAllTimeLow
-                ? "mélypont"
-                : stats.daysSinceCheaper != null
-                  ? formatDaysAgo(stats.daysSinceCheaper)
-                  : "—"}
+              {stats.isFlat30
+                ? "nincs"
+                : stats.isAllTimeLow || stats.isAtMonthLow
+                  ? "mélypont"
+                  : stats.daysSinceCheaper != null
+                    ? formatDaysAgo(stats.daysSinceCheaper)
+                    : "—"}
             </dd>
           </div>
         </dl>

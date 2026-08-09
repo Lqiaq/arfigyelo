@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "Csak az első N terméket nézd meg (üres = mind)"
+        description: "Csak az első N címet kérje le (üres = mind)"
         required: false
         type: string
 
@@ -17,13 +17,35 @@ permissions:
   contents: write # a lokális JSON fallback commit-backhez kell
 
 concurrency:
-  group: scrape
+  group: snapshot
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  # ---------------------------------------------------------------------------
+  # Hálózat nélküli tesztek. Néhány másodperc, és megfogja a saját
+  # regressziónkat még azelőtt, hogy bárkinek kérést küldenénk.
+  # ---------------------------------------------------------------------------
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Feldolgozó logika tesztjei
+        working-directory: scraper
+        run: |
+          python test_extract.py
+          python test_steam.py
+
+  # ---------------------------------------------------------------------------
+  # Élő adat: a Steam publikus store API-ja.
+  # ---------------------------------------------------------------------------
+  snapshot:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
@@ -34,44 +56,20 @@ jobs:
           cache: pip
           cache-dependency-path: scraper/requirements.txt
 
+      # A Steam-ág csak a standard könyvtárat használja; a supabase csomag
+      # akkor kell, ha vannak Supabase secretek.
       - name: Függőségek
-        run: pip install -r scraper/requirements.txt
+        run: pip install -r scraper/requirements-api.txt
 
-      # Böngésző nélkül fut, pár másodperc. Ha a kiolvasó logikát elrontottuk,
-      # itt derül ki – nem 15 sikertelen lekérés után.
-      - name: Kiolvasó logika tesztje
-        working-directory: scraper
-        run: python test_extract.py
-
-      # A Playwright böngésző ~180 MB, verziónként cache-eljük.
-      - name: Playwright verzió kiolvasása
-        id: pw
-        run: echo "version=$(pip show playwright | awk '/^Version:/{print $2}')" >> "$GITHUB_OUTPUT"
-
-      - name: Böngésző cache
-        id: browser-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ steps.pw.outputs.version }}
-
-      - name: Chromium telepítése
-        run: |
-          if [ "${{ steps.browser-cache.outputs.cache-hit }}" = "true" ]; then
-            python -m playwright install-deps chromium
-          else
-            python -m playwright install --with-deps chromium
-          fi
-
-      - name: Scraper futtatása
+      - name: Árpillanatkép lekérése
         working-directory: scraper
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python scrape.py ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+        run: python fetch_steam.py ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
 
       # Ha nincs Supabase secret, a store lokális JSON-be írt – azt visszatoljuk
-      # a repóba, így a Vercel deploy is friss adatot lát. Supabase módban ez a
+      # a repóba, ami egyben új Vercel deployt is kivált. Supabase módban ez a
       # lépés no-op, mert a fájl nem változik.
       - name: Adat visszacommitolása (lokális mód)
         run: |
@@ -84,13 +82,3 @@ jobs:
           git add web/public/data/db.json
           git commit -m "chore(data): napi árpillanatkép $(date -u +%Y-%m-%d)"
           git push
-
-      # Ha elhasal a scraper (pl. változott az oldal szerkezete), a futás
-      # nyoma megmarad – ez a legolcsóbb monitorozás egy hobbiprojekthez.
-      - name: Hibalog feltöltése
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: scrape-log
-          path: scraper/*.log
-          if-no-files-found: ignore

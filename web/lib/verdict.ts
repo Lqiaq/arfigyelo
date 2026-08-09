@@ -3,7 +3,7 @@ import "server-only";
 import Anthropic from "@anthropic-ai/sdk";
 import { createHash } from "node:crypto";
 
-import { formatDaysAgo, formatPercent, formatPrice } from "./format";
+import { formatDaysAgo, formatPercent, formatPrice as formatMoney } from "./format";
 import type { PriceStats } from "./stats";
 import type { ProductWithHistory, Trend, Verdict } from "./types";
 
@@ -94,7 +94,9 @@ async function writeCache(productId: string, hash: string, verdict: Verdict) {
  * Kulcs nélkül (és a modell hibája esetén) ez fut. Szándékosan nem próbál
  * úgy tenni, mintha AI írta volna — a UI külön jelöli.
  */
-export function heuristicVerdict(stats: PriceStats): Verdict {
+export function heuristicVerdict(stats: PriceStats, currency: string): Verdict {
+  const formatPrice = (minor: number | null) => formatMoney(minor, currency);
+
   if (stats.current == null) {
     return {
       trend: "stabil",
@@ -127,9 +129,21 @@ export function heuristicVerdict(stats: PriceStats): Verdict {
     };
   }
 
+  // Végig változatlan ár: ilyenkor a "30 napos minimumon van" triviálisan
+  // igaz, de semmit nem mond. Mondjuk ki inkább, hogy nem mozdult.
+  if (stats.isFlat30) {
+    return {
+      trend: "stabil",
+      headline: "Nem mozdult",
+      verdict: `${price} — az elmúlt 30 napban végig ennyi volt. Egyelőre nincs jele akciónak.`,
+      source: "heuristic",
+      model: null,
+    };
+  }
+
   // Az ár a 30 napos minimumon (vagy fél százalékon belül). Ez akkor is hír,
   // ha korábban, a 30 napos ablakon kívül volt már olcsóbb.
-  if ((stats.pctAboveMin30 ?? 0) < 0.5) {
+  if (stats.isAtMonthLow || (stats.pctAboveMin30 ?? 0) < 0.5) {
     return {
       trend: stats.trend,
       headline: "30 napos mélyponton",
@@ -159,6 +173,19 @@ export function heuristicVerdict(stats: PriceStats): Verdict {
     };
   }
 
+  // Játékoknál a "hány százalékkal drágább a minimumnál" félrevezető tud
+  // lenni (egy -80%-os sale után a teljes ár +400%). Sokkal beszédesebb,
+  // hogy mennyiért lehetett megkapni a legutóbbi mélyponton.
+  if ((stats.pctAboveMin30 ?? 0) >= 15) {
+    return {
+      trend: stats.trend,
+      headline: "Most nem akciós",
+      verdict: `${price} — az elmúlt 30 napban ${formatPrice(stats.min30)}-ért is elvihető volt. Ha nem sürgős, érdemes kivárni a következő akciót.`,
+      source: "heuristic",
+      model: null,
+    };
+  }
+
   const aboveMin = formatPercent(stats.pctAboveMin30 ?? 0, false);
   return {
     trend: stats.trend,
@@ -172,9 +199,9 @@ export function heuristicVerdict(stats: PriceStats): Verdict {
 // ---------------------------------------------------------------------------
 // Claude
 // ---------------------------------------------------------------------------
-const SYSTEM_PROMPT = `Ártrend-figyelő asszisztens vagy egy magyar webshop fejhallgató-kategóriájához.
+const SYSTEM_PROMPT = `Ártrend-figyelő asszisztens vagy egy Steam-játékokat követő oldalhoz.
 
-Kapsz egy termékről előre kiszámolt ártény-halmazt, és írsz belőle egy rövid, magyar nyelvű vásárlói verdiktet.
+Kapsz egy címről előre kiszámolt ártény-halmazt, és írsz belőle egy rövid, magyar nyelvű vásárlói verdiktet.
 
 Szabályok:
 - KIZÁRÓLAG a megadott tényekre támaszkodj. Ne találj ki árat, dátumot, százalékot vagy összehasonlítást.
@@ -182,6 +209,7 @@ Szabályok:
 - A "headline" legfeljebb 4 szó, nagybetűs mondatkezdés, felkiáltójel nélkül.
 - A "trend" mezőben add vissza a megadott trend-értéket változatlanul.
 - Ha kevés a mérés, ezt mondd ki nyíltan ahelyett, hogy magabiztos következtetést vonnál le.
+- A Steamen ismétlődő szezonális akciók vannak; ha a mostani ár messze van a mért minimumtól, ezt nyugodtan említsd meg indokként a kivárásra.
 - Ne írj disclaimert, ne ajánlj más terméket, ne kérdezz vissza.`;
 
 const OUTPUT_SCHEMA = {
@@ -197,6 +225,8 @@ const OUTPUT_SCHEMA = {
 
 /** Csak azok a tények, amikre a modellnek szüksége van – tömören, magyarul. */
 function buildFacts(product: ProductWithHistory, stats: PriceStats): string {
+  const formatPrice = (minor: number | null) => formatMoney(minor, product.currency);
+
   const lines: string[] = [
     `Termék: ${product.name}`,
     `Jelenlegi ár: ${formatPrice(stats.current)}`,
@@ -215,6 +245,13 @@ function buildFacts(product: ProductWithHistory, stats: PriceStats): string {
     );
   } else if (stats.previous != null) {
     lines.push("Az előző méréshez képest nem változott az ár");
+  }
+
+  if (stats.isFlat30) {
+    lines.push(
+      "FONTOS: az ár az elmúlt 30 napban egyáltalán nem mozdult — ne nevezd " +
+        "'mélypontnak' vagy 'jó vételnek', egyszerűen nem volt akció",
+    );
   }
 
   if (stats.isAllTimeLow) {
@@ -296,7 +333,7 @@ export async function getVerdict(
   stats: PriceStats,
 ): Promise<Verdict> {
   if (!hasClaude() || stats.current == null) {
-    return heuristicVerdict(stats);
+    return heuristicVerdict(stats, product.currency);
   }
 
   const hash = historyHash(product);
@@ -310,7 +347,7 @@ export async function getVerdict(
 
   try {
     const verdict = await askClaude(product, stats);
-    if (!verdict) return heuristicVerdict(stats);
+    if (!verdict) return heuristicVerdict(stats, product.currency);
 
     memoryCache.set(cacheKey, verdict);
     void writeCache(product.id, hash, verdict).catch((error) =>
@@ -326,6 +363,6 @@ export async function getVerdict(
     } else {
       console.error(`Verdikt generálás sikertelen (${product.slug}):`, error);
     }
-    return heuristicVerdict(stats);
+    return heuristicVerdict(stats, product.currency);
   }
 }

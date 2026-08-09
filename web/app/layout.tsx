@@ -7,9 +7,9 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin", "lat
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin", "latin-ext"] });
 
 export const metadata: Metadata = {
-  title: "Ártrend-figyelő — fejhallgatók",
+  title: "Ártrend-figyelő — Steam játékok",
   description:
-    "Napi árkövetés 15 fejhallgatóra, grafikonnal és AI-generált vásárlási verdikttel.",
+    "Napi árkövetés 15 Steam-játékra, grafikonnal és AI-generált vásárlási verdikttel.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Ártrend-figyelő
               </span>
               <span className="ml-2 text-[13px] text-text-muted group-hover:text-text">
-                fejhallgatók
+                Steam
               </span>
             </Link>
             <a
@@ -43,9 +43,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="border-t border-border-base mt-16">
           <div className="mx-auto w-full max-w-6xl px-5 py-6 text-[13px] text-text-muted leading-relaxed">
             <p>
-              Portfólió-projekt. Napi egyetlen árlekérés termékenként, a
-              robots.txt tiszteletben tartásával. Az árak tájékoztató jellegűek
-              — vásárlás előtt mindig ellenőrizd a webshopban.
+              Portfólió-projekt. Az árak a Steam publikus store API-jából
+              származnak, címenként napi egy lekéréssel. Tájékoztató jellegűek —
+              vásárlás előtt mindig ellenőrizd a boltban. Nem áll kapcsolatban a
+              Valve Corporationnel.
             </p>
           </div>
         </footer>

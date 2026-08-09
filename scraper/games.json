@@ -1,0 +1,24 @@
+{
+  "shop": "steam",
+  "category": "jatek",
+  "source": "Steam Store API (store.steampowered.com/api/appdetails)",
+  "country_code": "hu",
+  "note": "15 népszerű cím, amiknek az ára a Steam sale-ek miatt érdemben mozog. Napi 1 lekérés címenként.",
+  "products": [
+    { "slug": "cyberpunk-2077",            "appid": 1091500, "name": "Cyberpunk 2077" },
+    { "slug": "red-dead-redemption-2",     "appid": 1174180, "name": "Red Dead Redemption 2" },
+    { "slug": "the-witcher-3",             "appid": 292030,  "name": "The Witcher 3: Wild Hunt" },
+    { "slug": "elden-ring",                "appid": 1245620, "name": "ELDEN RING" },
+    { "slug": "baldurs-gate-3",            "appid": 1086940, "name": "Baldur's Gate 3" },
+    { "slug": "hollow-knight",             "appid": 367520,  "name": "Hollow Knight" },
+    { "slug": "hogwarts-legacy",           "appid": 990080,  "name": "Hogwarts Legacy" },
+    { "slug": "hades",                     "appid": 1145360, "name": "Hades" },
+    { "slug": "stardew-valley",            "appid": 413150,  "name": "Stardew Valley" },
+    { "slug": "helldivers-2",              "appid": 553850,  "name": "HELLDIVERS 2" },
+    { "slug": "god-of-war",                "appid": 1593500, "name": "God of War" },
+    { "slug": "resident-evil-4",           "appid": 2050650, "name": "Resident Evil 4" },
+    { "slug": "no-mans-sky",               "appid": 275850,  "name": "No Man's Sky" },
+    { "slug": "terraria",                  "appid": 105600,  "name": "Terraria" },
+    { "slug": "spider-man-remastered",     "appid": 1817070, "name": "Marvel's Spider-Man Remastered" }
+  ]
+}

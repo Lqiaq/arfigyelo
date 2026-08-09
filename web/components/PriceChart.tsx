@@ -30,9 +30,11 @@ interface Point {
 function ChartTooltip({
   active,
   payload,
+  currency,
 }: {
   active?: boolean;
   payload?: Array<{ payload: Point }>;
+  currency: string;
 }) {
   if (!active || !payload?.length) return null;
   const point = payload[0].payload;
@@ -41,11 +43,11 @@ function ChartTooltip({
     <div className="rounded-lg border border-border-strong bg-surface px-3 py-2 shadow-lg">
       <div className="text-[11px] text-text-muted">{formatDate(point.date)}</div>
       <div className="tabular text-[15px] font-semibold">
-        {formatPrice(point.price)}
+        {formatPrice(point.price, currency)}
       </div>
       {point.listPrice != null && point.listPrice > point.price && (
         <div className="tabular text-[11px] text-text-faint line-through">
-          {formatPrice(point.listPrice)}
+          {formatPrice(point.listPrice, currency)}
         </div>
       )}
     </div>
@@ -57,11 +59,13 @@ export function PriceChart({
   trend,
   min,
   max,
+  currency,
 }: {
   history: Snapshot[];
   trend: Trend;
   min: number;
   max: number;
+  currency: string;
 }) {
   const data: Point[] = history.map((s) => ({
     date: s.captured_on,
@@ -69,9 +73,11 @@ export function PriceChart({
     listPrice: s.list_price,
   }));
 
-  // Az y tengely ne 0-tól induljon — pár százalékos árváltozás úgy
-  // lapos vonalnak látszana. 8% levegő az adat körül.
-  const pad = Math.max((max - min) * 0.35, max * 0.02);
+  // Az y tengely ne 0-tól induljon — pár százalékos árváltozás úgy lapos
+  // vonalnak látszana. Viszont nagy szórásnál (egy -70%-os sale) a bőséges
+  // levegő ellaposítja a görbét, ezért a sáv az adat 12%-a, alsó korláttal
+  // a "végig változatlan ár" esetre.
+  const pad = Math.max((max - min) * 0.12, max * 0.02);
   const color = STROKE[trend];
 
   return (
@@ -97,14 +103,17 @@ export function PriceChart({
           />
           <YAxis
             domain={[Math.floor(min - pad), Math.ceil(max + pad)]}
-            tickFormatter={formatPriceCompact}
+            tickFormatter={(value: number) => formatPriceCompact(value, currency)}
             tick={{ fill: "var(--text-faint)", fontSize: 11 }}
             tickLine={false}
             axisLine={false}
-            width={54}
+            width={72}
           />
 
-          <Tooltip content={<ChartTooltip />} cursor={{ stroke: "var(--border-strong)" }} />
+          <Tooltip
+            content={<ChartTooltip currency={currency} />}
+            cursor={{ stroke: "var(--border-strong)" }}
+          />
 
           <ReferenceLine
             y={min}

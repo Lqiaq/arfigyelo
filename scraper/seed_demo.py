@@ -1,12 +1,15 @@
 """Szintetikus ártörténet a frontend fejlesztéséhez.
 
 MIÉRT VAN EZ: a valós adat napi 1 mérés, tehát az indulás után napokig egyetlen
-pont van termékenként — grafikont fejleszteni így kényelmetlen. Ez a szkript
+pont van címenként — grafikont fejleszteni így kényelmetlen. Ez a szkript
 45 nap kitalált történetet generál, hogy a UI-t végig lehessen próbálni.
 
 EZ NEM VALÓS ADAT. Külön fájlba (`db.demo.json`) írja, és a frontend csak akkor
 használja, ha NEXT_PUBLIC_DEMO_DATA=1 — olyankor figyelmeztető sávot is kirak.
 Éles demóban soha ne kapcsold be.
+
+A generált mintázat a Steam árazását utánozza: hosszú, teljesen mozdulatlan
+szakaszok, közben 1-2 éles, néhány napos akció — nem folytonos sodródás.
 
 Futtatás:
     python seed_demo.py [--days 45]
@@ -21,71 +24,83 @@ from dataclasses import asdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from steam_extract import store_url
 from store import REPO_ROOT, ProductRow, SnapshotRow, product_id_for
 
 HERE = Path(__file__).resolve().parent
-CATALOG = HERE / "products.json"
+CATALOG = HERE / "games.json"
+LIVE_DB = REPO_ROOT / "web" / "public" / "data" / "db.json"
 OUT = REPO_ROOT / "web" / "public" / "data" / "db.demo.json"
 
 # Fix seed: ugyanaz a parancs mindig ugyanazt a fájlt adja, így a demó-adat
 # változása nem zajosítja a git diffet.
 RNG = random.Random(20260810)
 
-# A valós, 2026-08-10-én mért árak — ezekből indulunk visszafelé.
-ANCHOR_PRICES = {
-    "sony-wh-1000xm6-fekete": 134990,
-    "sony-wh-ch720n-fekete": 31990,
-    "sony-wf-1000xm6-ezust": 99990,
-    "apple-airpods-4": 52990,
-    "apple-airpods-4-anc": 74990,
-    "apple-airpods-pro-3": 99990,
-    "apple-airpods-max-2-ejfekete": 239990,
-    "samsung-galaxy-buds3-ezust": 36990,
-    "nothing-ear-a-black": 29990,
-    "jbl-tune-530bt-black": 15990,
-    "jbl-quantum-350-wireless-fekete": 24590,
-    "jbl-wave-buds-2-fekete": 23890,
-    "marshall-major-iv-fekete": 23990,
-    "soundcore-q20i": 17390,
-    "asus-rog-pelta": 38490,
-}
+# Tipikus Steam kedvezmény-lépcsők.
+DISCOUNTS = [0.10, 0.20, 0.25, 0.33, 0.40, 0.50, 0.60, 0.67, 0.75, 0.80]
 
 
-def round_to_990(value: float) -> int:
-    """A magyar webshopok árai .990-re végződnek – enélkül hamisan néz ki."""
-    thousands = max(1, round(value / 1000))
-    return thousands * 1000 - 10
+def load_anchors() -> dict[str, tuple[int, int, str]]:
+    """slug -> (mai ár, teljes ár, valuta) a valós, lekért pillanatképből.
 
-
-def generate_series(anchor: int, days: int) -> list[int]:
-    """Visszafelé generál: az utolsó nap mindig a valós, horgony ár.
-
-    Három viselkedés keveredik, hogy a demó ne legyen egyhangú:
-    lassú sodródás, néhol egy akciós völgy, és sok teljesen mozdulatlan nap
-    (a valóságban is ez a gyakori).
+    Így a demó-görbe a valódi mai árban végződik, és nem kell külön
+    karbantartani egy második árlistát.
     """
-    drift = RNG.choice([-0.0015, -0.0008, 0.0, 0.0006, 0.0012])
-    prices = [anchor]
-    value = float(anchor)
+    if not LIVE_DB.exists():
+        raise SystemExit(
+            f"Nincs {LIVE_DB.name}. Futtasd előbb: python fetch_steam.py"
+        )
 
-    for _ in range(days - 1):
-        value *= 1 - drift
-        if RNG.random() < 0.12:  # ritka, nagyobb árlépés
-            value *= 1 + RNG.uniform(-0.05, 0.05)
-        prices.append(round_to_990(value))
+    db = json.loads(LIVE_DB.read_text(encoding="utf-8"))
+    by_id = {p["id"]: p for p in db["products"]}
+    anchors: dict[str, tuple[int, int, str]] = {}
 
-    prices.reverse()
+    for snap in db["price_snapshots"]:
+        product = by_id.get(snap["product_id"])
+        if not product:
+            continue
+        price = snap["price"]
+        full = snap.get("list_price") or price
+        anchors[product["slug"]] = (price, full, product.get("currency", "EUR"))
 
-    # Egy akciós völgy a történet közepe tájára, 3-8 napig.
-    if days > 14 and RNG.random() < 0.6:
-        start = RNG.randint(5, days - 12)
-        length = RNG.randint(3, 8)
-        depth = RNG.uniform(0.07, 0.18)
-        for i in range(start, min(start + length, days - 2)):
-            prices[i] = round_to_990(prices[i] * (1 - depth))
+    return anchors
 
-    prices[-1] = anchor  # a mai nap maradjon a valós ár
-    return prices
+
+def sale_price(base: int, depth: float) -> int:
+    """Teljes árból akciós ár, x,99-re kerekítve – ahogy a Steam is teszi."""
+    return max(99, int(round(base * (1 - depth) / 100) * 100 - 1))
+
+
+def generate_series(current: int, full_price: int, days: int) -> list[tuple[int, int | None]]:
+    """(ár, listaár) párok napra bontva. Az utolsó nap a valós, mai ár.
+
+    A Steam árazása lépcsős, nem sodródó: hosszú mozdulatlan szakaszok,
+    közben egy-egy néhány napos akció. Szándékosan csak EGY korábbi akció
+    van, és az nem lóghat rá a mostanira — az átfedő akciók abszurd
+    heti-változás számokat szülnének a statisztikában.
+    """
+    series: list[tuple[int, int | None]] = [(full_price, None)] * days
+    currently_on_sale = current < full_price
+
+    # A mostani akció a történet végén fut, ha ma tényleg akciós az ár.
+    current_sale_len = RNG.randint(3, 6) if currently_on_sale else 1
+    quiet_zone_start = days - current_sale_len - 3  # legyen szünet a kettő közt
+
+    # Egy korábbi akció, biztonságos távolságban a mostanitól.
+    past_len = RNG.randint(4, 8)
+    if quiet_zone_start - past_len > 2:
+        start = RNG.randint(2, quiet_zone_start - past_len)
+        past = sale_price(full_price, RNG.choice(DISCOUNTS))
+        for i in range(start, start + past_len):
+            series[i] = (past, full_price)
+
+    if currently_on_sale:
+        for i in range(days - current_sale_len, days):
+            series[i] = (current, full_price)
+    else:
+        series[-1] = (current, None)
+
+    return series
 
 
 def main() -> None:
@@ -94,7 +109,9 @@ def main() -> None:
     args = ap.parse_args()
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
-    today = date(2026, 8, 10)
+    anchors = load_anchors()
+
+    today = date.today()
     dates = [
         (today - timedelta(days=args.days - 1 - i)).isoformat()
         for i in range(args.days)
@@ -102,12 +119,13 @@ def main() -> None:
 
     products, snapshots = [], []
 
-    for product in catalog["products"]:
-        slug = product["slug"]
-        anchor = ANCHOR_PRICES.get(slug)
+    for game in catalog["products"]:
+        slug = game["slug"]
+        anchor = anchors.get(slug)
         if anchor is None:
-            print(f"  ! nincs horgony ár ehhez: {slug} – kihagyom")
+            print(f"  ! nincs valós mérés ehhez: {slug} – kihagyom")
             continue
+        current, full_price, currency = anchor
 
         pid = product_id_for(slug)
         products.append(
@@ -116,30 +134,27 @@ def main() -> None:
                 **asdict(
                     ProductRow(
                         slug=slug,
-                        name=product["name"],
-                        url=product["url"],
-                        brand=product.get("brand"),
+                        name=game["name"],
+                        url=store_url(game["appid"]),
+                        brand=None,
                         category=catalog["category"],
                         shop=catalog["shop"],
-                        currency=catalog["currency"],
+                        currency=currency,
                     )
                 ),
                 "created_at": f"{dates[0]}T06:12:00+00:00",
             }
         )
 
-        series = generate_series(anchor, args.days)
-        for captured_on, price in zip(dates, series):
+        for captured_on, (price, list_price) in zip(
+            dates, generate_series(current, full_price, args.days)
+        ):
             snapshots.append(
                 asdict(
                     SnapshotRow(
                         product_id=pid,
                         price=price,
-                        # Akciós napokon legyen áthúzott ár is, hogy a UI
-                        # kedvezmény-ága is látszódjon.
-                        list_price=round_to_990(price * 1.15)
-                        if price < anchor * 0.93
-                        else None,
+                        list_price=list_price,
                         availability="InStock",
                         captured_on=captured_on,
                         source="demo",
@@ -164,7 +179,7 @@ def main() -> None:
     )
     print(
         f"→ {OUT.relative_to(REPO_ROOT)} kész: "
-        f"{len(products)} termék × {args.days} nap = {len(snapshots)} snapshot"
+        f"{len(products)} cím × {args.days} nap = {len(snapshots)} snapshot"
     )
 
 

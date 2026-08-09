@@ -35,5 +35,12 @@ Thumbs.db
 # --- Vercel ---
 .vercel
 
+# --- Generált artifactok ---
+# A mock shop oldalait és a hozzá tartozó katalógust a mock-shop/generate.py
+# állítja elő; a CI is újragenerálja futás előtt. Nincs értelme verziózni.
+mock-shop/site/
+scraper/products.mock.json
+
 # MEGJEGYZÉS: a web/public/data/*.json SZÁNDÉKOSAN verziókövetett.
 # Lokális módban ez az adatbázis, és ide commitol vissza a GitHub Actions.
+# A frontend statikus importtal olvassa be, tehát nélkülük a build elhasal.

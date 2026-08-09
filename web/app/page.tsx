@@ -19,9 +19,12 @@ export default async function HomePage() {
     .map((p) => p.history.at(-1)!.captured_on)
     .sort()
     .pop();
+  // "Jó belépő" = tényleg mozgó árnál a mostani a mélypont, vagy régóta
+  // nem volt ilyen olcsó. A végig változatlan árú címek nem számítanak.
   const deals = withData.filter((p) => {
     const stats = analyze(p.history);
-    return stats.isAllTimeLow || (stats.daysSinceCheaper ?? 0) >= 14;
+    if (stats.isFlat30) return false;
+    return stats.isAllTimeLow || stats.isAtMonthLow || (stats.daysSinceCheaper ?? 0) >= 14;
   }).length;
 
   return (
@@ -36,17 +39,17 @@ export default async function HomePage() {
 
       <section className="mb-8 max-w-2xl">
         <h1 className="text-[28px] font-semibold tracking-tight leading-tight sm:text-[34px]">
-          Mikor éri meg megvenni?
+          Most vedd meg, vagy várd ki a sale-t?
         </h1>
         <p className="mt-3 text-[15px] leading-relaxed text-text-muted">
-          Napi egy árlekérés {products.length} fejhallgatóra az Alza.hu-ról.
-          A grafikon mutatja a trendet, a verdikt megmondja, hogy a mai ár jó
-          belépő-e — vagy érdemesebb kivárni.
+          Napi egy árlekérés {products.length} Steam-játékra. A grafikon mutatja
+          a trendet, a verdikt megmondja, hogy a mai ár jó belépő-e — vagy
+          érdemesebb kivárni a következő akciót.
         </p>
       </section>
 
       <dl className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-border-base bg-border-base sm:grid-cols-4">
-        <Stat label="Figyelt termék" value={String(products.length)} />
+        <Stat label="Figyelt cím" value={String(products.length)} />
         <Stat
           label="Utolsó mérés"
           value={lastCheck ? formatDate(lastCheck) : "—"}
@@ -111,9 +114,9 @@ function EmptyState() {
     <div className="rounded-xl border border-dashed border-border-strong p-10 text-center">
       <p className="text-[15px] font-medium">Még nincs árpillanatkép.</p>
       <p className="mx-auto mt-2 max-w-md text-[13px] leading-relaxed text-text-muted">
-        Futtasd a scrapert (<code>python scraper/scrape.py</code>), vagy indítsd
-        el a GitHub Actions workflow-t kézzel. A demó-adat kipróbálásához:{" "}
-        <code>NEXT_PUBLIC_DEMO_DATA=1</code>.
+        Futtasd a lekérést (<code>python scraper/fetch_steam.py</code>), vagy
+        indítsd el a GitHub Actions workflow-t kézzel. A demó-adat
+        kipróbálásához: <code>NEXT_PUBLIC_DEMO_DATA=1</code>.
       </p>
     </div>
   );

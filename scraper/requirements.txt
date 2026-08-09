@@ -1,4 +1,6 @@
-playwright==1.49.1
-# Csak akkor kell, ha Supabase-be írsz. Lokális JSON fallbackhez nem szükséges,
-# a store.py lustán importálja.
-supabase==2.11.0
+# A böngészős scraper-ághoz (scrape.py + mock shop).
+# A napi Steam-lekéréshez elég a requirements-api.txt.
+
+playwright==1.62.0
+
+-r requirements-api.txt

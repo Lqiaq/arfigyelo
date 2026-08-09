@@ -1,0 +1,7 @@
+# A napi Steam-lekéréshez (fetch_steam.py) csak ez kell.
+# A Playwright szándékosan nincs benne: a scraper-ág külön workflow-ban fut,
+# a mock shop ellen – lásd requirements.txt.
+
+# Csak akkor kell, ha Supabase-be írsz. Lokális JSON fallbackhez nem
+# szükséges, a store.py lustán importálja.
+supabase==2.11.0

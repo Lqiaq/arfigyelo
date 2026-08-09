@@ -29,6 +29,14 @@ export interface PriceStats {
 
   /** Mennyivel van a jelenlegi ár a 30 napos minimum fölött, százalékban. */
   pctAboveMin30: number | null;
+  /**
+   * true, ha az ár a 30 napos ablakban egyáltalán nem mozdult. Enélkül a
+   * "most a 30 napos minimumon van" állítás triviálisan igaz lenne egy
+   * végig változatlan árra is — és félrevezető.
+   */
+  isFlat30: boolean;
+  /** true, ha a mostani ár a 30 napos ablak minimuma ÉS az ár tényleg mozgott. */
+  isAtMonthLow: boolean;
   /** Mennyivel tér el a 30 napos átlagtól (negatív = olcsóbb az átlagnál). */
   pctVsAvg30: number | null;
 
@@ -77,6 +85,7 @@ export function analyze(history: Snapshot[]): PriceStats {
     min: null, max: null, minOn: null, maxOn: null,
     min30: null, max30: null, avg30: null,
     pctAboveMin30: null, pctVsAvg30: null,
+    isFlat30: false, isAtMonthLow: false,
     daysSinceCheaper: null, isAllTimeLow: false,
     trend: "stabil", trendPct: null,
     onSale: false, discountPct: null,
@@ -155,6 +164,8 @@ export function analyze(history: Snapshot[]): PriceStats {
     min30, max30, avg30,
     pctAboveMin30: ((current - min30) / min30) * 100,
     pctVsAvg30: ((current - avg30) / avg30) * 100,
+    isFlat30: min30 === max30,
+    isAtMonthLow: min30 !== max30 && current === min30,
     daysSinceCheaper,
     isAllTimeLow,
     trend,
