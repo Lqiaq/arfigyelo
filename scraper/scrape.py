@@ -119,11 +119,34 @@ def read_dom_price(page) -> dict | None:
     return None
 
 
+class Blocked(Exception):
+    """A szerver visszautasított minket (403/429 vagy bot-challenge oldal).
+
+    Ez nem hiba, amit újrapróbálkozással kell legyőzni — ez egy "ne most"
+    üzenet. A futás azonnal leáll: sem megkerülni nem akarjuk, sem tovább
+    terhelni az oldalt.
+    """
+
+
 def scrape_product(page, product: dict) -> dict | None:
-    """Egy termékoldal kiolvasása, retryval. None = nem sikerült."""
+    """Egy termékoldal kiolvasása. None = nem sikerült; Blocked = leállunk."""
     for attempt in range(1, RETRIES + 2):
         try:
-            page.goto(product["url"], timeout=PAGE_TIMEOUT_MS, wait_until="domcontentloaded")
+            response = page.goto(
+                product["url"], timeout=PAGE_TIMEOUT_MS, wait_until="domcontentloaded"
+            )
+            status = response.status if response else 0
+
+            if status in (403, 429):
+                retry_after = (response.headers.get("retry-after") if response else None)
+                raise Blocked(
+                    f"HTTP {status} a(z) {product['url']} kérésre"
+                    + (f" (Retry-After: {retry_after})" if retry_after else "")
+                )
+            if status >= 400:
+                print(f"    HTTP {status} – kihagyom (rossz URL?)")
+                return None
+
             data = read_jsonld(page) or read_dom_price(page)
             if data:
                 return data
@@ -143,6 +166,12 @@ def main() -> int:
     ap.add_argument("--limit", type=int, help="csak az első N terméket nézd meg")
     ap.add_argument("--dry-run", action="store_true", help="ne írj adatbázisba")
     ap.add_argument("--headed", action="store_true", help="látható böngésző")
+    ap.add_argument(
+        "--delay",
+        type=float,
+        help=f"fix szünet másodpercben a lekérések között "
+        f"(alap: véletlen {MIN_DELAY_S}–{MAX_DELAY_S} s)",
+    )
     args = ap.parse_args()
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
@@ -181,9 +210,16 @@ def main() -> int:
         allowed = set(allowed_urls)
         products = [p for p in products if p["url"] in allowed]
 
+        blocked_at: str | None = None
+
         for i, product in enumerate(products, 1):
             print(f"[{i}/{len(products)}] {product['name']}")
-            data = scrape_product(page, product)
+            try:
+                data = scrape_product(page, product)
+            except Blocked as exc:
+                blocked_at = str(exc)
+                break
+
             results.append((product, data))
 
             if data:
@@ -194,10 +230,24 @@ def main() -> int:
                 print("    SIKERTELEN")
 
             if i < len(products):
-                time.sleep(crawl_delay or random.uniform(MIN_DELAY_S, MAX_DELAY_S))
+                if args.delay is not None:
+                    pause = args.delay
+                else:
+                    pause = crawl_delay or random.uniform(MIN_DELAY_S, MAX_DELAY_S)
+                time.sleep(pause)
 
         context.close()
         browser.close()
+
+    if blocked_at:
+        print(f"\n⨯ A szerver visszautasított: {blocked_at}")
+        print(
+            "  A futás leállt. Ez nem hiba, hanem az oldal bot-védelme.\n"
+            "  Amit tenni lehet: ritkítsd a lekéréseket (--delay), futtasd\n"
+            "  ritkábban, vagy keress hivatalos adatforrást (feed/affiliate API).\n"
+            "  Amit NEM: a védelem megkerülése."
+        )
+        # A már kiolvasott termékeket még elmentjük – ne dobjuk el a munkát.
 
     ok = [(p, d) for p, d in results if d]
     print(f"\nKiolvasva: {len(ok)}/{len(results)}")
@@ -232,8 +282,13 @@ def main() -> int:
         store.finish()
         print("Mentve.")
 
+    # Külön kilépőkód a blokkolásra: a cron logjában azonnal látszódjon,
+    # hogy nem a kódunk romlott el, hanem a szerver zárt ki.
+    if blocked_at:
+        return 3
+
     # A cron akkor bukjon el, ha a termékek több mint felét nem sikerült
-    # kiolvasni – az már layoutváltozásra vagy blokkolásra utal, nem zajra.
+    # kiolvasni – az már layoutváltozásra utal, nem zajra.
     if results and len(ok) < len(results) / 2:
         print("! A termékek több mint fele sikertelen – valószínűleg változott az oldal.")
         return 1
