@@ -37,6 +37,12 @@ jobs:
       - name: Függőségek
         run: pip install -r scraper/requirements.txt
 
+      # Böngésző nélkül fut, pár másodperc. Ha a kiolvasó logikát elrontottuk,
+      # itt derül ki – nem 15 sikertelen lekérés után.
+      - name: Kiolvasó logika tesztje
+        working-directory: scraper
+        run: python test_extract.py
+
       # A Playwright böngésző ~180 MB, verziónként cache-eljük.
       - name: Playwright verzió kiolvasása
         id: pw

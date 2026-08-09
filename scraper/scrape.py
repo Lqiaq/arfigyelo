@@ -28,6 +28,7 @@ from playwright.sync_api import Error as PlaywrightError
 from playwright.sync_api import TimeoutError as PlaywrightTimeout
 from playwright.sync_api import sync_playwright
 
+from extract import extract_from_jsonld, extract_from_price_text
 from store import ProductRow, SnapshotRow, get_store, today_budapest
 
 HERE = Path(__file__).resolve().parent
@@ -53,8 +54,6 @@ DOM_PRICE_SELECTORS = [
     ".price-box__primary-price__value",
     "#pricePane .price-box__price",
 ]
-
-PRICE_RE = re.compile(r"(\d[\d\s  .]*)")
 
 
 # ---------------------------------------------------------------------------
@@ -96,106 +95,27 @@ def check_robots(page, urls: list[str]) -> tuple[list[str], float | None]:
 # ---------------------------------------------------------------------------
 # Kiolvasás
 # ---------------------------------------------------------------------------
-def parse_price(raw) -> int | None:
-    """'134 990 Ft' / 134990 / '134990.0' -> 134990"""
-    if raw is None:
-        return None
-    if isinstance(raw, (int, float)):
-        return int(round(raw))
-    match = PRICE_RE.search(str(raw))
-    if not match:
-        return None
-    digits = re.sub(r"[^\d]", "", match.group(1))
-    return int(digits) if digits else None
+# A tényleges parse-olás az extract.py-ban él (böngésző nélkül tesztelhető).
+# Itt csak a Playwright-oldali "hozd ide a szöveget" rész van.
 
 
-def find_product_node(data):
-    """Rekurzívan megkeresi a schema.org Product node-ot a JSON-LD-ben."""
-    if isinstance(data, list):
-        for item in data:
-            found = find_product_node(item)
-            if found:
-                return found
-    elif isinstance(data, dict):
-        types = data.get("@type")
-        types = types if isinstance(types, list) else [types]
-        if "Product" in types:
-            return data
-        for key in ("@graph", "mainEntity", "itemListElement"):
-            if key in data:
-                found = find_product_node(data[key])
-                if found:
-                    return found
-    return None
-
-
-def extract_from_jsonld(page) -> dict | None:
+def read_jsonld(page) -> dict | None:
     blocks = page.locator('script[type="application/ld+json"]').all_text_contents()
-    for block in blocks:
-        try:
-            node = find_product_node(json.loads(block))
-        except json.JSONDecodeError:
-            continue
-        if not node:
-            continue
-
-        offers = node.get("offers") or {}
-        if isinstance(offers, list):
-            offers = offers[0] if offers else {}
-
-        price = parse_price(offers.get("price"))
-        if price is None:
-            continue
-
-        # Áthúzott ár: a priceSpecification tömbben StrikethroughPrice típussal jön.
-        list_price = None
-        for spec in offers.get("priceSpecification") or []:
-            if isinstance(spec, dict) and "StrikethroughPrice" in str(spec.get("priceType", "")):
-                list_price = parse_price(spec.get("price"))
-
-        images = node.get("image") or []
-        images = images if isinstance(images, list) else [images]
-        image_url = None
-        if images:
-            first = images[0]
-            image_url = first.get("url") if isinstance(first, dict) else str(first)
-
-        brand = node.get("brand")
-        brand_name = brand.get("name") if isinstance(brand, dict) else brand
-
-        availability = str(offers.get("availability") or "").rsplit("/", 1)[-1] or None
-
-        return {
-            "price": price,
-            "list_price": list_price if list_price != price else None,
-            "availability": availability,
-            "name": node.get("name"),
-            "brand": brand_name,
-            "image_url": image_url,
-            "source": "jsonld",
-        }
-    return None
+    return extract_from_jsonld(blocks)
 
 
-def extract_from_dom(page) -> dict | None:
+def read_dom_price(page) -> dict | None:
     for selector in DOM_PRICE_SELECTORS:
         locator = page.locator(selector).first
         try:
             if locator.count() == 0:
                 continue
-            price = parse_price(locator.inner_text(timeout=2_000))
+            text = locator.inner_text(timeout=2_000)
         except (PlaywrightError, PlaywrightTimeout):
             continue
-        if price:
-            return {
-                "price": price,
-                "list_price": None,
-                "availability": None,
-                "name": None,
-                "brand": None,
-                "image_url": None,
-                "source": "dom",
-            }
+        result = extract_from_price_text(text)
+        if result:
+            return result
     return None
 
 
@@ -204,7 +124,7 @@ def scrape_product(page, product: dict) -> dict | None:
     for attempt in range(1, RETRIES + 2):
         try:
             page.goto(product["url"], timeout=PAGE_TIMEOUT_MS, wait_until="domcontentloaded")
-            data = extract_from_jsonld(page) or extract_from_dom(page)
+            data = read_jsonld(page) or read_dom_price(page)
             if data:
                 return data
             print(f"    nem találtam árat (próba {attempt}/{RETRIES + 1})")

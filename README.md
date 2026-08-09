@@ -111,10 +111,15 @@ A scraping jogilag és etikailag kényes, ezért a projekt szándékosan kicsi:
 cd scraper
 python -m venv .venv && .venv/Scripts/activate   # Windows; Linux/mac: source .venv/bin/activate
 pip install -r requirements.txt
+python test_extract.py                           # kiolvasó logika – böngésző nélkül, pár mp
 python -m playwright install chromium
 python scrape.py --limit 3 --dry-run             # füstteszt: kiolvas, nem ír
 python scrape.py                                 # éles futás
 ```
+
+A parse-olás (`extract.py`) szándékosan külön van a böngésző-vezérléstől
+(`scrape.py`), így valódi, mentett JSON-LD fixture-ökön tesztelhető
+Playwright nélkül. Ez fut a cronban is, a scrape előtt.
 
 Kulcs nélkül a `web/public/data/db.json` fájlba ír. Ha be van állítva a
 `SUPABASE_URL` és `SUPABASE_SERVICE_ROLE_KEY`, akkor Supabase-be.
@@ -191,8 +196,10 @@ Vercel → Import repo → **Root Directory: `web`**. Környezeti változók:
 ```
 scraper/
   products.json      figyelt termékek (slug, név, URL)
-  scrape.py          Playwright scraper, JSON-LD kiolvasással
+  extract.py         tiszta parse-logika (JSON-LD + DOM fallback), böngésző nélkül
+  scrape.py          Playwright-vezérlés: robots.txt, retry, rate limit
   store.py           adatréteg: Supabase VAGY lokális JSON, azonos felülettel
+  test_extract.py    tesztek valódi, mentett JSON-LD fixture-ökön
   seed_demo.py       szintetikus történet a UI fejlesztéséhez
 supabase/
   schema.sql         táblák, nézet, RLS
@@ -227,6 +234,10 @@ curl "https://<demo-url>/api/verdict?slug=sony-wh-1000xm6-fekete"
 - **A JSON-LD a jobb scraping-célpont.** A `schema.org/Product` blokk stabilabb,
   mint bármelyik CSS-osztály, és strukturáltan adja az áthúzott árat és a
   készletállapotot is. A CSS-selector csak fallback.
+- **A parse-olást érdemes szétválasztani a böngészőtől.** Amíg a kiolvasás a
+  Playwright `page` objektumon ült, csak élő futással lehetett tesztelni.
+  Külön modulban a bemenet egy string-lista — így valódi mentett JSON-LD-n
+  fut a teszt, másodpercek alatt, a cron elején is.
 - **Az idempotencia a cronban nem opcionális.** A `(product_id, captured_on)`
   unique kulcs miatt egy kézi újrafuttatás nem duplikál — enélkül a
   „gyorsan nézzük meg, működik-e" pillanat elrontja az idősort.

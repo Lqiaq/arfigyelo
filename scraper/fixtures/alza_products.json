@@ -1,0 +1,48 @@
+{
+  "_note": "Valódi, az Alza.hu termékoldalairól 2026-08-10-én mentett JSON-LD blokkok, a scraper által használt mezőkre szűkítve. A test_extract.py ezeken fut. Ha az Alza megváltoztatja a struktúrát, itt kell frissíteni.",
+  "cases": [
+    {
+      "name": "akciós termék – van áthúzott ár",
+      "url": "https://www.alza.hu/sony-wh-1000xm6-noise-cancelling-fekete-d12883227.htm",
+      "expect": {
+        "price": 134990,
+        "list_price": 149990,
+        "availability": "InStock",
+        "brand": "SONY",
+        "source": "jsonld"
+      },
+      "blocks": [
+        "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"Sony WH-1000XM6 Noise Cancelling, fekete\",\"sku\":\"RO972j0e1\",\"brand\":{\"@type\":\"Brand\",\"name\":\"SONY\"},\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://image.alza.cz/products/RO972j0e1/RO972j0e1.jpg\",\"name\":\"Sony WH-1000XM6 - Fő fotó\"}],\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.alza.hu/sony-wh-1000xm6-noise-cancelling-fekete-d12883227.htm\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\",\"price\":134990,\"priceCurrency\":\"HUF\",\"priceSpecification\":[{\"@type\":\"UnitPriceSpecification\",\"priceType\":\"https://schema.org/StrikethroughPrice\",\"price\":149990,\"priceCurrency\":\"HUF\",\"valueAddedTaxIncluded\":true},{\"@type\":\"UnitPriceSpecification\",\"priceType\":\"https://schema.org/SalePrice\",\"price\":134990,\"priceCurrency\":\"HUF\",\"valueAddedTaxIncluded\":true}]}}"
+      ]
+    },
+    {
+      "name": "sima ár – nincs áthúzott ár",
+      "url": "https://www.alza.hu/soundcore-q20i-d7927588.htm",
+      "expect": {
+        "price": 17390,
+        "list_price": null,
+        "availability": "InStock",
+        "brand": "Anker",
+        "source": "jsonld"
+      },
+      "blocks": [
+        "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"soundcore Q20i\",\"sku\":\"ANKER30a1d1\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Anker\"},\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://image.alza.cz/products/ANKER30a1d1/ANKER30a1d1.jpg\",\"name\":\"soundcore Q20i - Fő fotó\"}],\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.alza.hu/soundcore-q20i-d7927588.htm\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\",\"price\":17390,\"priceCurrency\":\"HUF\",\"priceSpecification\":[{\"@type\":\"UnitPriceSpecification\",\"priceType\":\"https://schema.org/SalePrice\",\"price\":17390,\"priceCurrency\":\"HUF\",\"valueAddedTaxIncluded\":true}]}}"
+      ]
+    },
+    {
+      "name": "nagy kedvezmény + több ld+json blokk, a Product nem az első",
+      "url": "https://www.alza.hu/asus-rog-pelta-d12716972.htm",
+      "expect": {
+        "price": 38490,
+        "list_price": 61690,
+        "availability": "InStock",
+        "brand": "ASUS",
+        "source": "jsonld"
+      },
+      "blocks": [
+        "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Fej- és fülhallgatók\"}]}",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"Alza.hu\"},{\"@type\":\"WebPage\",\"name\":\"ASUS ROG PELTA\"},{\"@type\":\"Product\",\"name\":\"ASUS ROG PELTA\",\"sku\":\"NM362a9m3\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ASUS\"},\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://image.alza.cz/products/NM362a9m3/NM362a9m3.jpg\",\"name\":\"ASUS ROG PELTA - Fő fotó\"}],\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.alza.hu/asus-rog-pelta-d12716972.htm\",\"itemCondition\":\"https://schema.org/NewCondition\",\"availability\":\"https://schema.org/InStock\",\"price\":38490,\"priceCurrency\":\"HUF\",\"priceSpecification\":[{\"@type\":\"UnitPriceSpecification\",\"priceType\":\"https://schema.org/StrikethroughPrice\",\"price\":61690,\"priceCurrency\":\"HUF\",\"valueAddedTaxIncluded\":true},{\"@type\":\"UnitPriceSpecification\",\"priceType\":\"https://schema.org/SalePrice\",\"price\":38490,\"priceCurrency\":\"HUF\",\"valueAddedTaxIncluded\":true}]}}]}"
+      ]
+    }
+  ]
+}
