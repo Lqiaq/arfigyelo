@@ -916,7 +916,127 @@
    "availability": "InStock",
    "captured_on": "2026-08-15",
    "source": "steam-api"
+  },
+  {
+   "product_id": "04aea52f-ce22-50e6-a340-7254e9b4daa6",
+   "price": 5999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "0f3bc86e-df2e-50f4-abe2-ed42db1c686d",
+   "price": 2999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "1525f490-81f8-5173-a025-f5b77cac5628",
+   "price": 4999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "257d0333-79b8-5b61-bb0b-e1b10fe35847",
+   "price": 2450,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "268012a1-4287-5bf6-b418-849bb20b2a8f",
+   "price": 5999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "28be0212-2488-5edf-b291-8cc966b07417",
+   "price": 5899,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "63d91eae-fa7a-50f7-a6db-d9346020b685",
+   "price": 975,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "79ef5042-accb-5fae-9db8-e38053145f4d",
+   "price": 1479,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "8e3f9f39-d69f-5948-b068-fe8464456061",
+   "price": 5999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "9be583a8-664e-5b7f-b446-54756e76d255",
+   "price": 1399,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "9de2fcfa-12e5-5f73-9c08-4be7e918b450",
+   "price": 5999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "a58fec00-858f-5d1f-8602-dc6747b954a3",
+   "price": 5999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "c98f85a3-8c0f-5a07-a4c6-c628ac4818cf",
+   "price": 2999,
+   "list_price": 3999,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "fac3d0dc-82be-508f-b80c-be9e6efd15ae",
+   "price": 3999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
+  },
+  {
+   "product_id": "fbff57a4-aaee-57a0-95fe-0d25c8791bb9",
+   "price": 5999,
+   "list_price": null,
+   "availability": "InStock",
+   "captured_on": "2026-08-16",
+   "source": "steam-api"
   }
  ],
- "generated_at": "2026-08-15T06:56:31.107900+00:00"
+ "generated_at": "2026-08-16T06:57:50.835215+00:00"
 }
